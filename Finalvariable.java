@@ -3,16 +3,16 @@ public class Finalvariable{
 	{
 		System.out.println("Details");
 		
-		final String aadharNumber;
-		aadharNumber="4444 4444 4444";
+		final long aadharNumber;
+		aadharNumber=444444444444L;
 		System.out.println("aadharNumber:"+aadharNumber);
 		
 		final String email;
 		email="varsha.xworkz@gmail.com";
 		System.out.println("email:"+email);
 		
-		final String phone;
-		phone="6428774247";
+		final long phone;
+		phone=6428774247L;
 		System.out.println("phone:"+phone);
 	}
 }
