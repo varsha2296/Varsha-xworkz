@@ -18,13 +18,16 @@ public class Refrigerator{
 		int sizeOfArray=emails.length;
 		System.out.println("Total elements: "+sizeOfArray); 
 		
+		String elementAtIndex0=emails[0];
+		System.out.println("Element at index zero: "+elementAtIndex0)
+		
 		String elementAtIndex1=emails[1];
 		System.out.println("Element at index one: "+elementAtIndex1);
 		
-		String elementAtIndex3=emails[3];
-		System.out.println("Element at index three: "+elementAtIndex3);
-		
 		String elementAtIndex2=emails[2];
 		System.out.println("Element at index two: "+elementAtIndex2);
+		
+		String elementAtIndex3=emails[3];
+		System.out.println("Element at index three: "+elementAtIndex3);
 	}
 }
