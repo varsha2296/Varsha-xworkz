@@ -1,13 +1,9 @@
 public class States{	
 	public static void main(String[] India)
 	{
-		System.out.println("JVM invokes main");		
+		System.out.println("JVM invokes main");
 		
-		String[] statesOfIndia={"Karnataka","UP","MP","Kerala","AP",
-		"Goa","Gujarat","Himachal Pradesh","Maharashtra","Punjab",
-		"Rajasthan","Tamil Nadu","West Bengal","Bihar","Assam"};
-		
-		stateName(statesOfIndia);
+		stateName(India);
 		
 		System.out.println("exit main");
 	}		
