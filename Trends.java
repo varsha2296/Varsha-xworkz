@@ -1,8 +1,8 @@
 public class Trends{
-	public static void main(String[] Clothes)
+	public static void main(String[] clothes)
 	{
 		System.out.println("JVM invoked main from Trends");
-		Fashion.women(Clothes[0]);
+		Fashion.women(clothes);
 		System.out.println("EXIT :: main from Trends");
 	}
 }
