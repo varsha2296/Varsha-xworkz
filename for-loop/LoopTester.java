@@ -5,13 +5,13 @@ public class LoopTester{
 		boolean termination=true;
 		for(byte start=0;termination;start++)
 		{
-		System.out.println("infinite");
-		System.out.println("Value of init variable :"+start);
-		if(start==3)
-		{
-			termination=false;
-		}
+			System.out.println("infinite");
+			System.out.println("Value of init variable :"+start);
+			if(start==3)
+			{
+				termination=false;
+			}	
+		}	
+		System.out.println("EXIT ::main");
 	}
-	//System.out.println("EXIT ::main");
-	}	
 }
