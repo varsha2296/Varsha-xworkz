@@ -4,7 +4,7 @@ public class MessageTester{
 	System.out.println("JVM invoked main");
 
 	String valueAtIndex0=msgs[0];	
-    int number=Integer.parseInt(valueAtIndex0);
+   	int number=Integer.parseInt(valueAtIndex0);
 	VTU.printMessage(number);
 	
 	System.out.println("***************************************");
