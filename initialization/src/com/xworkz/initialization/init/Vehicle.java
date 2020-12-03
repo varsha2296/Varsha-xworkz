@@ -5,8 +5,8 @@ public class Vehicle {
 	private String mfgDate;
 	private String company;
 	private int chasisNo;
-	public String color;
-	public String ownerName;
+	private String color;
+	private String ownerName;
 
 	public Vehicle(String mfgDate, String company, int chasisNo) {
 		this.mfgDate = mfgDate;
@@ -24,6 +24,14 @@ public class Vehicle {
 
 	public int getChasisNo() {
 		return chasisNo;
+	}
+	
+	public String getColor() {
+		return color;
+	}
+	
+	public String getOwnerName() {
+		return ownerName;
 	}
 
 	public void setColor(String color) {
