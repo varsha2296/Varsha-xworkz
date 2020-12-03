@@ -6,7 +6,8 @@ public class PaperTester {
 
 	public static void main(String[] args) {
 
-		Paper paper=new Paper("White","10px","20px");
+		Paper paper=new Paper("White",10,20);
+		paper.setColor("Red");
 		String brand=paper.getBrand();
 		String color=paper.getColor();
 		String width=paper.getWidth();
