@@ -3,16 +3,20 @@ package com.xworkz.initialization.init;
 public class Paper {
 
 	private String brand="ClassMate";
-	public String color;
-	String width;
-	String height;
+	private String color;
+	private int width;
+	private int height;
 	
-	public Paper(String color,String width,String height) {
+	public Paper(String color,int width,int height) {
 		this.color=color;
 		this.width=width;
 		this.height=height;
 	}
-
+	
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
 	public String getBrand() {
 		return brand;
 	}
@@ -27,5 +31,13 @@ public class Paper {
 
 	public String getHeight() {
 		return height;
+	}
+	
+	void setHeight(int height) {
+		this.height = height;
+	}
+	
+	void setWidth(int width) {
+		this.width = width;
 	}
 }
