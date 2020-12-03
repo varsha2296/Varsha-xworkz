@@ -9,10 +9,10 @@ public class VehicleTester {
 		Vehicle vehicle=new Vehicle("2Dec2020","Yamaha",8124);
 		String mfgDate=vehicle.getMfgDate();
 		String company=vehicle.getCompany();
-		int no=vehicle.getChasisNo();
+		int chasisNo=vehicle.getChasisNo();
 		System.out.println(mfgDate);
 		System.out.println(company);
-		System.out.println(no);
+		System.out.println(chasisNo);
 		
 		String color="black";
 		vehicle.setColor(color);
