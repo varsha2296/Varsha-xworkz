@@ -42,7 +42,7 @@ public class ICU {
 	}
 	
 	public void updateCost(double newCost) {
-		if(newCost!=0.0) {
+		if(newCost>0.0) {
 			this.setCostPerDay(newCost);
 			System.out.println("details are vaild, updated cost");
 		} else {
