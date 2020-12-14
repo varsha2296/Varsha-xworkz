@@ -33,16 +33,31 @@ public class ICU {
 	}
 	
 	public void updateDoctor(String newDoctorName) {
-		this.admissionDTO.setDoctorName(newDoctorName);
+		if(newDoctorName!=null) {
+			this.admissionDTO.setDoctorName(newDoctorName);
+			System.out.println("details are valid, updated doctor name");
+		} else {
+			System.out.println("cannot update doctor name");
+		}
 	}
 	
 	public void updateCost(double newCost) {
-		this.setCostPerDay(newCost);
+		if(newCost!=0.0) {
+			this.setCostPerDay(newCost);
+			System.out.println("details are vaild, updated cost");
+		} else {
+			System.out.println("cannot update cost");
+		}
 	}
 
 	public void updateDoctorAndNurse(String newDoctorName, String newNurseName) {
-		this.admissionDTO.setDoctorName(newDoctorName);
-		this.admissionDTO.setNurseAssigned(newNurseName);
+		if(newDoctorName!=null && newNurseName!=null) {
+			this.admissionDTO.setDoctorName(newDoctorName);
+			this.admissionDTO.setNurseAssigned(newNurseName);
+			System.out.println("details are valid, updated doctor and nurse name");
+		} else {
+			System.out.println("cannot update doctor and nurse name");
+		}
 	}
 
 	
