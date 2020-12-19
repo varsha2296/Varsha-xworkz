@@ -5,7 +5,7 @@ public class StringEquality {
 	public static void main(String[] args) {
 
 		String gadget="X-box";
-		String gamingSystem="";
+		String gamingSystem="X-box";
 		String device="X-box";
 		if(gadget==gamingSystem && gadget==device) {
 			System.out.println("both ref pointing to same obj");
@@ -42,7 +42,7 @@ public class StringEquality {
 		int index=device.indexOf("b");
 		System.out.println(index);
 		
-		boolean find=gadget.contains(space);
+		boolean find=space.contains(" ");
 		System.out.println(find);
 		
 		boolean ending=device.endsWith(concatUsingMethod);
@@ -51,11 +51,11 @@ public class StringEquality {
 		String replace=gadget.replaceAll("box", "workz");
 		System.out.println(replace);
 		
-		String trim=device.trim();
-		System.out.println(trim);
-		
 		int indexCount=concatUsingMethod.codePointCount(3, 7);
 		System.out.println(indexCount);
+		
+		String sub=space.substring(1);
+		System.out.println(sub);
 		
 		String subString=space.substring(0, 3);
 		System.out.println(subString);
